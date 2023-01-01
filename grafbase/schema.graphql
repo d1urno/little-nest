@@ -4,6 +4,6 @@ type Property @model {
   description: String!
 }
 
-type Location {
+type Location @model {
   title: String!
 }
