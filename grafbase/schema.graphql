@@ -1,11 +1,9 @@
-type TodoList @model {
-  id: ID!
-  title: String!
-  todos: [Todo]
+type Property @model {
+  url: String!
+  location: Location!
+  description: String!
 }
 
-type Todo @model {
-  id: ID!
+type Location {
   title: String!
-  complete: Boolean!
 }
